@@ -1,0 +1,23 @@
+{
+    "name": "armincms/originalnod",
+    "description": "originalnod.ir dependencies",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "armincms/blogger" : "~0.1",
+        "armincms/easy-license" : "1.*",
+        "armincms/mellat" : "dev-master",
+        "armincms/eset-last" : "dev-master"
+    },
+    "autoload": { 
+    }, 
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
