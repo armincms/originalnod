@@ -8,13 +8,23 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "armincms/blogger" : "~0.1",
+        "armincms/blogger" : "~0.6",
         "armincms/easy-license" : "1.*",
         "armincms/mellat" : "~0.1",
         "armincms/eset-last" : "dev-master"
     },
-    "autoload": { 
-    }, 
+    "autoload": {
+        "psr-4": {
+            "Armincms\\Originalnod\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Armincms\\Originalnod\\OriginalnodServiceProvider"
+            ]
+        }
+    },
     "config": {
         "sort-packages": true
     },
