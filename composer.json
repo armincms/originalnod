@@ -11,7 +11,8 @@
         "armincms/blogger" : "~0.6",
         "armincms/easy-license" : "1.*",
         "armincms/mellat" : "~0.1",
-        "armincms/meta-manager" : "dev-master",
+        "armincms/meta-manager" : "^0.1",
+        "armincms/robots" : "^0.1",
         "armincms/eset-last" : "dev-master"
     },
     "autoload": {
