@@ -21,6 +21,19 @@ class OriginalnodServiceProvider extends ServiceProvider
             $component->config([
                 'layout' => 'phoenix'
             ]);
-        });       
+        });      
+     
+          
+        $app['site']->get('blog')->components()->each(function($component) { 
+            $component->config([
+                'layout' => 'orion'
+            ]);
+        });
+
+        $app['site']->get('home')->components()->each(function($component) { 
+            $component->config([
+                'layout' => 'orion'
+            ]);
+        });
     }  
 }
